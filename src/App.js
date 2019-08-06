@@ -33,7 +33,8 @@ class App extends Component {
               <div className="input-search"><input
                 type="search"
                 className="form-control"
-                placeholder="🔎 Buscar" />
+                placeholder="🔎 Buscar" 
+                />
               </div>
               <ul className="ĺist-group">
                 <li className="list-group-item"><Link to="/artritis-reumatoide">Artritis reumatoide</Link></li>
