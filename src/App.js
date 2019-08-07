@@ -26,10 +26,10 @@ class App extends Component {
                     <Link to="/"><img src="http://www.memuevo.cl/wp-content/themes/newmemuevo/img/logo.png" width="90" height="70" className="d-inline-block align-top" alt="logo de la fundación" /></Link>
                   </div>
                 {/* </a> */}
-                <button className="navbar-toggler rotate" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="navbar-toggler-icon"></span>
                 </button>
-              
+              </nav>
 
               <div className="pos-f-t">
                 <div className="nav-collapse" id="navbarToggleExternalContent">
@@ -43,13 +43,6 @@ class App extends Component {
                     <Link to="/registro"><h3 className="list-group-item list-group-item-action">Regístrate como paciente</h3></Link>
                     <Link to="/noticias"><h3 className="list-group-item list-group-item-action">Noticias y Eventos</h3></Link>
 
-<<<<<<< HEAD
-              <div className="input-search"><input
-                type="search"
-                className="form-control"
-                placeholder="🔎 Buscar" 
-                />
-=======
                     <div className="rrss">
                       <a href="https://es-la.facebook.com/memuevo.cl/"><img src="https://cdn2.iconfinder.com/data/icons/social-icon-3/512/social_style_3_facebook-512.png" className="icon" alt="logo facebook" /></a>
                       <a href="https://twitter.com/memuevocl?lang=es"><img src="https://cdn2.iconfinder.com/data/icons/social-icon-3/512/social_style_3_twiter-512.png" className="icon" alt="logo twitter"></img></a>
@@ -61,9 +54,8 @@ class App extends Component {
                     </div>
                   </div>
                 </div>
->>>>>>> f635e2f19638ab25de421584309944e2769a4f37
               </div>
-              </nav>
+           
 
 
 
