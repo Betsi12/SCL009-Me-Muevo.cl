@@ -1,29 +1,31 @@
 import React from 'react';
+import '../views/components.css';
+import { Row, Col } from 'react-bootstrap';
+import firstimgInfo from '../image/firstimgInfo.jpg';
+import secondimgInfo from '../image/secondimgInfo.jpg';
+
 
 const TemplateInfo = () => {
-    
-        return (
-<div>
-    <h1>Información Disease </h1>
-</div>
-        )
-    
-}
-/*testing react.createRef()*/
-// class TemplateInfo extends Component{
-//     constructor(){
-//         super()
-//         this.text = React.createRef()
-//     }
-
-//     render(){
-//         return(
-//             <div>
-//     <h1 ref={this.text}> Info disease </h1>
-// </div>
-//         )
-//     }
-// }
-
-
+                return (
+                    <div>
+            
+                        <h1>Información de la Enfermedad</h1>
+                       
+                               
+                          <Row> 
+                        
+                              <Col xs = {12} md ={6}>  
+                                <img src={firstimgInfo} alt=""/>
+                              </Col>
+            
+                              <Col  xs = {12} md ={6}>
+                              <img src={secondimgInfo} alt=""/>
+                            </Col>
+                          </Row>
+                    
+            
+                    </div>
+                )
+            }
+            
 export default TemplateInfo;

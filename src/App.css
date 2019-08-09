@@ -16,7 +16,6 @@
 }
 .pos-f-t{
     height: 100%;
-    max-height: 500px;
 }
 
 .rrss{
@@ -30,11 +29,7 @@
     padding: 5px;
 }
 
-.navbar-toggler-icon{
-    width: 40px;
-    height: 40px;
-    border-color: #00519F;
-}
+
     
 .list-sidebar .list-group-item-action {
     position: relative;
@@ -54,41 +49,24 @@
 .infoTemplateHome {
     display: flex;
 }
-
-/* Link{
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    color: black;
-} */
-
-h1{
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    color: black;
+.imgInfo{
+    width: 100%;
+    max-width: 800px;
+    max-height:380px;
+    margin: 10px;
 }
 
-h2{
-    font-family: 'Roboto', sans-serif;
-    font-size: 32px;
-    color: black;
+.navbar-nav {
+    padding-right: .5rem;
+    padding-left: .5rem;
 }
 
-h3{
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    color: black;
+/*Estilos del footer*/
+ .wraper {
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+    max-width: 1230px;
+    margin: auto;
 }
-
-h4{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    color: black;
-}
-
-p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    color: black;
-}
-
 
