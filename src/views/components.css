@@ -1,12 +1,9 @@
-.p {
+/* .p {
     margin-left: 10px;
-}
-.img-fluid{
-    width: 244px;
-    height: 165px;
-}
+} */
 .register{
-    display: table-column;
+    background-color: var(--color-greyO); 
+    border-radius: 1em; 
     justify-content: center;
 }
 .btn {
@@ -14,4 +11,31 @@
     width: 140px;
     height: 40px;
     padding: 0px
+}
+.my-cards{
+    margin: 1.5em;
+ 
+}
+.d-inline-block{
+    width: 100%;
+}
+
+/*Estilos del Footer*/
+.socialMedia {
+    text-align:center;
+ }
+ .logo_twitter{
+    height: 30px;
+    margin:5%;
+}
+.logo_facebook{
+    height: 30px;
+    margin: 5%;
+}
+.logo_youtube {
+    height: 30px;
+    margin: 5%;
+}
+.socialMedia p{
+    margin :0%;
 }

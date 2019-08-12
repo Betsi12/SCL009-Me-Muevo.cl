@@ -1,33 +1,14 @@
 import React from 'react'
 import '../views/components.css';
-import { Row , Col, Container } from 'react-bootstrap';
-import Footer from '';
-
-
+import CarouselHome from '../components/CarouselHome'
+// import secondimgInfo from '../image/secondimgInfo.jpg';
 const TemplateHome = () => {
     return (
-         <div>
-            <section>
-            <Container>
-              <Row> 
-           
-              <Col xs = {12} md ={12}>  
-                   <img src={firstimgInfo} className="imgInfo" alt="Infografía de la Enfermedad"/>
-              </Col>
-            
-            
-               <Col  xs = {12} md ={12}>
-                    <img src={secondimgInfo} className="imgInfo" alt="Infografía de la Enfermedad"/>
-              </Col>
-            
-               </Row>
-               </Container>
-            </section>
-
-        </div>
-  
-    
+                   <section className={"containerCarousel"}>
+                      <CarouselHome/>  
+                      
+                                 
+            </section>  
     )
 }
-
 export default TemplateHome;
